@@ -5,7 +5,7 @@
   <title>FABB Lab | IIT Delhi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    @import url('assets/css/style.css');
+    @import url('style.css');
   </style> 
 </head>
 <body>
@@ -43,8 +43,50 @@
 </main>
 
 <footer>
-  <!-- SAME FOOTER -->
+  <div class="footer-inner">
+    <div>© <span id="year"></span> FABB Lab, IIT Delhi</div>
+    <div><a href="https://home.iitd.ac.in" target="_blank" rel="noopener">IIT Delhi</a></div>
+  </div>
 </footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
